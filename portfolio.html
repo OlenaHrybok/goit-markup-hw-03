@@ -12,83 +12,99 @@
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <nav>
+    <header class="header section">
+        <div class="container row">
+            <nav class="header-left">
                 <a class="studio" href="./index.html">
                     <span class="logo">Web</span><span class="logo-second">Studio</span>
                 </a>
                 <ul class="site-nav">
-                    <li><a href="./index.html" class="link">Студія</a></li>
-                    <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
-                    <li><a href="" class="link">Контакти</a></li>
+                    <li class="site-face"><a href="./index.html" class="link">Студія</a></li>
+                    <li class="site-face"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+                    <li class="site-face"><a href="" class="link">Контакти</a></li>
                 </ul>
             </nav>
-            <ul>
-                <li><a class="contacts-adress" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contacts-adress" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="header-right">
+                <li class="header-contact"><a class="contacts-adress" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="header-contact"><a class="contacts-adress" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
     <main>
         <section class="but-nav-main">   
-            <div class="container">
-                <ul><h1 class="benefit-title-item">Навігація вкладок</h1>
-                    <li><button class="but-nav" type="button">Усі</button></li>
-                    <li><button class="but-nav" type ="button">Маркетинг</button></li>
-                    <li><button class="but-nav" type="button">Веб-сайти</button></li>
-                    <li><button class="but-nav" type ="button">Додатки</button></li>
-                    <li><button class="but-nav" type ="button">Дизайн</button></li>
+            <div class="container but">
+                <ul class="but-nav-row"><h1 class="benefit-title-item">Навігація вкладок</h1>
+                    <li class="but-item"><button class="but-nav-first" type="button">Усі</button></li>
+                    <li class="but-item"><button class="but-nav" type ="button">Маркетинг</button></li>
+                    <li class="but-item"><button class="but-nav" type="button">Веб-сайти</button></li>
+                    <li class="but-item"><button class="but-nav" type ="button">Додатки</button></li>
+                    <li class="but-item"><button class="but-nav" type ="button">Дизайн</button></li>
                 </ul>
             </div>
-        </section>
-        <section class="portfolio">
             <div class="container">
-                <ul><h2 class="benefit-title-item">Перелік додатків та посилань</h2>   
-                    <li> <a href="" class="port">
-                                <img src="./images/img-11.jpg" alt="Технокряк" width="370">
-                            <h3 class="port-link">Технокряк</h2>
-                        <p class="port-link-text">Веб-сайт</p></a>
+                <ul class="port-row"><h2 class="benefit-title-item">Перелік додатків та посилань</h2>   
+                    <li class="port-item"> <a href="" class="port">
+                        <img class="port-img" src="./images/img-11.jpg" alt="Технокряк" width="370"></a>
+                        <div class="port-back">
+                            <h3 class="port-link">Технокряк</h3>
+                            <p class="port-link-text">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li> <a href="" class="port">
-                                <img src="./images/img-2.jpg" alt="Постер" width="370">
-                            <h3 class="port-link">Постер New Orlean vs Golden Star</h2>
-                        <p class="port-link-text">Дизайн</p></a>
+                    <li class="port-item"> <a href="" class="port">
+                        <img class="port-img" src="./images/img-2.jpg" alt="Постер" width="370">
+                        <div class="port-back">
+                            <h3 class="port-link">Постер New Orlean vs Golden Star</h3>
+                            <p class="port-link-text">Дизайн</p></a>
+                        </div>
                     </li>
-                    <li> <a href="" class="port">
-                                <img src="./images/img-33.jpg" alt="Ресторан" width="370">
-                            <h3 class="port-link">Ресторан Seafood </h2>
-                        <p class="port-link-text">Додаток</p></a>
+                    <li class="port-item"> <a href="" class="port">
+                        <img class="port-img" src="./images/img-33.jpg" alt="Ресторан" width="370">
+                        <div class="port-back">
+                            <h3 class="port-link">Ресторан Seafood </h3>
+                            <p class="port-link-text">Додаток</p></a>
+                        </div>
                     </li>
-                    <li> <a href="" class="port">
-                                <img src="./images/img-4.jpg" alt="Проєкт" width="370">
-                            <h3 class="port-link">Проєкт Prime</h2>
-                        <p class="port-link-text">Маркетинг</p></a>
+                    <li class="port-item"> <a href="" class="port">
+                        <img class="port-img" src="./images/img-4.jpg" alt="Проєкт" width="370">
+                        <div class="port-back">
+                            <h3 class="port-link">Проєкт Prime</h3>
+                            <p class="port-link-text">Маркетинг</p></a>
+                        </div>
                     </li>
-                    <li> <a href="" class="port"> 
-                                <img src="./images/img-5.jpg" alt="Проєкт" width="370">
-                            <h3 class="port-link">Проєкт Boxes</h2>
-                        <p class="port-link-text">Додаток</p></li>a>
+                    <li class="port-item"> <a href="" class="port"> 
+                        <img class="port-img" src="./images/img-5.jpg" alt="Проєкт" width="370">
+                        <div class="port-back">
+                            <h3 class="port-link">Проєкт Boxes</h3>
+                            <p class="port-link-text">Додаток</p></a>
+                        </div>
                     </li>
-                    <li> <a href="" class="port">
-                                <img src="./images/img-6.jpg" alt="Inspiration" width="370">
-                            <h3 class="port-link">Inspiration has no Borders</h2>
-                        <p class="port-link-text">Веб-сайт</p></a>
+                    <li class="port-item"> <a href="" class="port">
+                        <img class="port-img" src="./images/img-6.jpg" alt="Inspiration" width="370">
+                        <div class="port-back">
+                            <h3 class="port-link">Inspiration has no Borders</h3>
+                            <p class="port-link-text">Веб-сайт</p></a>
+                        </div>
                     </li>
-                    <li><a href="" class="port">
-                                <img src="./images/img-7.jpg" alt="Видання" width="370">
-                            <h2 class="port-link">Видання Limited Edition</h2>
-                        <p class="port-link-text">Дизайн</p></a>
+                    <li class="port-item"><a href="" class="port">
+                        <img class="port-img" src="./images/img-7.jpg" alt="Видання" width="370">
+                        <div class="port-back">
+                            <h3 class="port-link">Видання Limited Edition</h3>
+                            <p class="port-link-text">Дизайн</p></a>
+                        </div>
                     </li>
-                    <li> <a href="" class="port">
-                                <img src="./images/img-8.jpg" alt="Проєкт" width="370">
-                            <h2 class="port-link">Проєкт LAB</h2>
-                        <p class="port-link-text">Маркетинг</p></a>
+                    <li class="port-item"> <a href="" class="port">
+                        <img class="port-img" src="./images/img-8.jpg" alt="Проєкт" width="370">
+                        <div class="port-back">
+                            <h3 class="port-link">Проєкт LAB</h3>
+                            <p class="port-link-text">Маркетинг</p></a>
+                        </div>
                     </li>
-                    <li><a href="" class="port">
-                                <img src="./images/img-9.jpg" alt="Growing" width="370">
-                            <h2 class="port-link">Growing Business</h2>
-                        <p class="port-link-text">Додаток</p></a>
+                    <li class="port-item"><a href="" class="port">
+                        <img class="port-img" src="./images/img-9.jpg" alt="Growing" width="370">
+                        <div class="port-back">
+                            <h3 class="port-link">Growing Business</h3>
+                            <p class="port-link-text">Додаток</p></a>
+                        </div>
                     </li>  
                 </ul>
             </div>
